@@ -43,7 +43,6 @@ message_file_fields = {
     "transfer_method": fields.String,
     "belongs_to": fields.String(default="user"),
     "upload_file_id": fields.String(default=None)
-
 }
 
 agent_thought_fields = {
